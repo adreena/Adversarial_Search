@@ -1,0 +1,208 @@
+INFO:root:Search Configuration:
+Opponent: MINIMAX
+Rounds: 5
+Fair Matches: True
+Time Limit: 150
+Processes: 1
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=28703425152548356837411180874073147, ply_count=71, locs=(65, 62))
+History: [16, 110, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=29312521362432693878664489391539557, ply_count=67, locs=(105, 97))
+History: [44, 65, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=36673131864602676585581150262789761, ply_count=83, locs=(109, 49))
+History: [82, 39, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=26998457145982556973308861271253409, ply_count=77, locs=(113, 41))
+History: [111, 30, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNE: 25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=37466525637801437751048663740729101, ply_count=52, locs=(47, 1))
+History: [86, 92, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=11380016660421661148362202497041041, ply_count=81, locs=(23, 79))
+History: [53, 6, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=31417460059657737746705823983248405, ply_count=72, locs=(7, 108))
+History: [98, 47, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=36450080060456925105327746236696329, ply_count=70, locs=(1, 5))
+History: [71, 7, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=26126286337029669922811818752943587, ply_count=77, locs=(88, 110))
+History: [74, 33, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=224379419941341711980322391213323, ply_count=79, locs=(112, 20))
+History: [83, 22, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ENE: 11>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=31421934206478265216272506111928241, ply_count=74, locs=(36, 55))
+History: [78, 91, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=27750144512203605228929077995808479, ply_count=57, locs=(106, 79))
+History: [56, 8, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=32618913362812833338746179376817655, ply_count=61, locs=(104, 61))
+History: [84, 68, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=31866201215307529397282680692868976, ply_count=73, locs=(39, 7))
+History: [99, 70, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=37383828676257243209309084431951045, ply_count=72, locs=(8, 35))
+History: [45, 4, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=32071248694608695923418213023483425, ply_count=67, locs=(105, 8))
+History: [108, 6, <Action.ESE: -15>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.ESE: -15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNW: 27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=31337605660299316851998343670572065, ply_count=79, locs=(9, 23))
+History: [106, 101, <Action.ESE: -15>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.NNW: 27>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Second agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=36290002343480827274740553043945356, ply_count=66, locs=(40, 0))
+History: [26, 16, <Action.SSW: -25>, <Action.NNE: 25>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.ESE: -15>, <Action.NNW: 27>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSE: -27>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.SSE: -27>]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Status: Status.GAME_OVER
+Final State: Isolation(board=37627744881757685252063352821753203, ply_count=56, locs=(21, 49))
+History: [92, 46, <Action.SSE: -27>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ESE: -15>, <Action.SSE: -27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WSW: -11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.ENE: 11>, <Action.SSE: -27>, <Action.ENE: 11>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.WSW: -11>, <Action.NNE: 25>, <Action.WSW: -11>, <Action.NNW: 27>, <Action.ESE: -15>, <Action.SSW: -25>, <Action.NNW: 27>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.ENE: 11>, <Action.SSW: -25>, <Action.WNW: 15>, <Action.WNW: 15>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.NNE: 25>, <Action.ENE: 11>, <Action.NNE: 25>, <Action.SSW: -25>, <Action.WSW: -11>, <Action.SSW: -25>, <Action.SSW: -25>, <Action.SSE: -27>, <Action.SSW: -25>]
+Winner: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Loser: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Initial game state: Isolation(board=41523161203939122082683632224299007, ply_count=0, locs=(None, None))
+First agent: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+Second agent: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+
+INFO:isolation:Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent') get_action() method did not respond within 150 milliseconds
+INFO:isolation:Status: Status.TIMEOUT
+Final State: Isolation(board=41523161203936760827384603363764223, ply_count=2, locs=(56, 71))
+History: [56, 71]
+Winner: Agent(agent_class=<class 'sample_players.MinimaxPlayer'>, name='Minimax Agent')
+Loser: Agent(agent_class=<class 'my_custom_player.CustomPlayer'>, name='Custom Agent')
+
+INFO:__main__:Your agent won 50.0% of matches against Minimax Agent
